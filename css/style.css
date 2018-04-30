@@ -138,6 +138,7 @@ body {
   }
     
   #main_wrap .guide-box .s-muryo {
+    width:175px;
     margin-bottom: 16px;
   }
 
@@ -385,19 +386,19 @@ body {
   
   
   #main_wrap .sp-section-title-new {
-    width: 194px;
+    width: 32.33%;
     text-align: center;
     margin: 10px auto 33px auto;
   }
   
   #main_wrap .sp-section-title-popular {
-    width: 276px;
+    width: 46%;
     text-align: center;
     margin: 10px auto 33px auto;
   }
   
   #main_wrap .sp-section-title-guide {
-    width: 302px;
+    width: 50%;
     text-align: center;
     margin: 10px auto 33px auto;
   }
@@ -489,7 +490,6 @@ body {
 
   #sidebar .pagelink {
       width: 100%;
-      height: 90px;
       margin-bottom: 20px;
       padding: 2rem;
       background-color:  #887f69;
@@ -577,7 +577,7 @@ body {
   } 
     
   #sidebar .white-box .white-box-img {
-      width: 256px;
+      width: 42.66%;
   } 
     
   #sidebar .white-box .white-box-img img {
@@ -585,17 +585,17 @@ body {
   } 
     
   #sidebar .white-box .white-box-text {
-      width: 274px;
+      width: 100%;
       box-sizing: border-box;
   }
   
   #sidebar .white-box-text-more {
-      width: 274px;
+      width: 45.66%;
       margin-left: 20px;
   }
     
   #sidebar .white-box-more img {
-      width: 206px;
+      width: 100%;
   }
     
   header #header_in {
@@ -643,7 +643,7 @@ body {
   }
   
   footer .pagetop {
-      width: 185px;
+      width: 30.83%;
       margin:25px auto 45px auto;
   }
   
@@ -1312,8 +1312,8 @@ body {
   }
   
   #price-quantity-cart .kakaku {
-    max-width: 248px;
-    margin: 0 0 0 146px;
+    width: 41.33%;
+    margin: 0 0 0 24.33%;
     box-sizing: border-box;
   }
   

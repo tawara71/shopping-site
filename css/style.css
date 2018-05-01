@@ -780,10 +780,9 @@ body {
   .breadcrumb li {
     display:inline;/*横に並ぶように*/
     list-style: none;
-    font-weight: bold;/*太字*/
   }
 
-  .breadcrumb li:after {/* >を表示*/
+  .breadcrumb li:after {/* /を表示*/
     content: '/';
     padding: 0 3px;
     color: #887f69;
@@ -1236,8 +1235,8 @@ body {
   /* スライドショーエリア */
   
   #slide {
-    display: flex;
-    flex-wrap: wrap;
+/*    display: flex;
+    flex-wrap: wrap; */
     margin-top: 20px;
   }
   
@@ -1262,25 +1261,20 @@ body {
   #list_img li {
     list-style: none;
     display: inline-block;
-    margin: 0 3px 0 0;
+    width:18.3%;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   
   #list_img li img {
-    width: 112px;
+    width: 100%;
     cursor: pointer;
     box-sizing: border-box;
   }
   
   /* スライドショーエリアここまで */
-  
-  #color-size-table h3 img {
-    width: 30%;
-  }
 
-  
-  
   
   #price-quantity-cart {
     display: flex;
@@ -1319,18 +1313,18 @@ body {
   
   #price-quantity-cart .yen {
     color: #e80f66;
-    font-size: 28px;
+    font-size: 2rem;
     font-style: italic;
   }
   
   #price-quantity-cart .kingaku {
     color: #e80f66;
-    font-size: 54px;
+    font-size: 4rem;
     font-style: italic;
   }
   
   #price-quantity-cart .tax {
-    font-size: 28px;
+    font-size: 2rem;
     font-style: italic;
   }
   
@@ -1351,8 +1345,9 @@ body {
     border: 1px solid;
     border-color: #e8e4da;
     background-color: #f9f9f5;
-    width: 168px;
-    height: 80px;
+    width: 28%;
+    font-size: 2rem;
+    padding: 10px 10px;
     color: #887f69;
     text-align: center;
     box-sizing: border-box;
@@ -1361,8 +1356,8 @@ body {
   #c-s td {
     border: 1px solid;
     border-color: #e8e4da;
-    width: 218px;
-    height: 80px;
+    width: 36.3%;
+    padding: 10px 10px;
     color: #e8e4da;
     text-align: center;
     box-sizing: border-box;
@@ -1384,6 +1379,10 @@ body {
     box-sizing: border-box;
   }
   
+  #color-size-table h3 img {
+    width: 201px;
+  }
+  
   #price-quantity-cart .quantity {
     display: flex;
   }
@@ -1397,7 +1396,7 @@ body {
     width: 278px;
     height: 72px;
     margin-top: 25px;
-    margin-left: 103px;
+    margin-left: 17%;
     border: 1px solid;
     border-color: #e8e4da;
   }

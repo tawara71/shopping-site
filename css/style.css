@@ -398,7 +398,7 @@ body {
   }
   
   #main_wrap .sp-section-title-guide {
-    width: 50%;
+    width: 151px;
     text-align: center;
     margin: 10px auto 33px auto;
   }
@@ -448,7 +448,7 @@ body {
   }
     
   #main_wrap .guide-box .s-muryo {
-    width: 58.5%;
+    width: 175px;
     margin-bottom: 16px;
   }
   
@@ -501,7 +501,7 @@ body {
   }
     
   #sidebar .pagelink img {
-      width: 147px;
+      width: 74px;
   }
 
   #sidebar .categories {
@@ -517,7 +517,7 @@ body {
   }
     
   #sidebar .categories img {
-      width:164px;
+      width:83px;
   }
 
 
@@ -547,11 +547,11 @@ body {
   }
     
   #sidebar .brown-box .about-title img {
-      width: 92px;
+      width: 46px;
   }
     
   #sidebar .brown-box .shopinfo-title img {
-      width: 144px;
+      width: 72px;
   }
 
   #sidebar .brown-box {
@@ -577,7 +577,7 @@ body {
   } 
     
   #sidebar .white-box .white-box-img {
-      width: 42.66%;
+      width: 256px;
   } 
     
   #sidebar .white-box .white-box-img img {
@@ -590,12 +590,12 @@ body {
   }
   
   #sidebar .white-box-text-more {
-      width: 45.66%;
+      width: 256px;
       margin-left: 20px;
   }
     
   #sidebar .white-box-more img {
-      width: 100%;
+      width: 101px;
   }
     
   header #header_in {
@@ -631,7 +631,6 @@ body {
       display: block;
       padding: 10px 8px;
       border-bottom: 1px solid #eee;
-      font-size: 14px;
       text-decoration: none;
   }
   
@@ -643,7 +642,7 @@ body {
   }
   
   footer .pagetop {
-      width: 30.83%;
+      width: 78px;
       margin:25px auto 45px auto;
   }
   
@@ -934,7 +933,7 @@ body {
   }
   
   #main_wrap .sp-section-title-recent  {
-    width:197px;
+    width:99px;
     margin: 0 auto;
   }  
 
@@ -1292,7 +1291,7 @@ body {
   }
   
   #price-quantity-cart .cart img {
-    width: 75%;
+    width: 225px;
   }
   
   
@@ -1302,7 +1301,7 @@ body {
   }
   
   #price-quantity-cart .price-title {
-    width: 85px;
+    width: 43px;
   }
   
   #price-quantity-cart .kakaku {
@@ -1380,7 +1379,7 @@ body {
   }
   
   #color-size-table h3 img {
-    width: 201px;
+    width: 100px;
   }
   
   #price-quantity-cart .quantity {
@@ -1388,7 +1387,7 @@ body {
   }
   
   #price-quantity-cart .quantity-title {
-    width: 129px;
+    width: 65px;
   }
   
   

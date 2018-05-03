@@ -278,9 +278,6 @@ body {
 
 @media (max-width: 640px) {
   
-  body {
-    font-size: 22px;
-  }
   
   header {
     width: 100%;
@@ -302,30 +299,32 @@ body {
   }
   
   header .sp_logo {
-    width:194px;
+    width:97px;
     text-align: center;
-    margin: 29px auto 0px auto;
+    margin: 15px auto 0px auto;
   }
   
   header .sp_logo img {
     width:100%;
   }
   
+  header .sp_logo h1 {
+    margin: 0;
+  }
+  
+  
   #sp_fb_btn {
-    width: 48px;
-    height: 48px;
-    margin-right: 25px;
+    width: 24px;
+    margin-right: 12px;
   }
   
   #sp_is_btn {
-    width: 48px;
-    height: 48px;
-    margin-right: 20px;
+    width: 24px;
+    margin-right: 10px;
   }
   
   #sp_navi_btn {
-    width: 48px;
-    height: 48px;
+    width: 24px;
     margin-right: 0px;
   }
   
@@ -337,7 +336,6 @@ body {
   
   header .sp_btns {
     text-align: center;
-    margin-bottom: 25px;
   }
 
 
@@ -363,10 +361,18 @@ body {
 
   /* ボタンを長方形に */  
   .owl-dots span {
-      width: 50px !important;
-      height: 4px !important;
+      width: 25px !important;
+      height: 2px !important;
       border: none !important;
-      margin: 10px 20px 36px 0 !important;
+      margin: 0px 10px 0px 0 !important;
+      padding: 0 !important;
+  }
+  
+  /* ボタン　高さ1rem マージン　パディング0 */  
+  .owl-dots button {
+      height:1rem;
+      margin: 0 !important;
+      padding: 0 !important;
   }
 
   /* activeなら赤に hoverは使わず*/
@@ -379,28 +385,23 @@ body {
     margin: 0 auto;
   }
   
-  #main_wrap .sp-section-title {
-    width: 93.75%;
-    margin: 0 auto 20px auto;
-  }
-  
   
   #main_wrap .sp-section-title-new {
     width: 32.33%;
     text-align: center;
-    margin: 10px auto 33px auto;
+    margin: 0px auto 0px auto;
   }
   
   #main_wrap .sp-section-title-popular {
     width: 46%;
     text-align: center;
-    margin: 10px auto 33px auto;
+    margin: 2rem auto;
   }
   
   #main_wrap .sp-section-title-guide {
     width: 151px;
     text-align: center;
-    margin: 10px auto 33px auto;
+    margin: 2rem auto;
   }
   
   #main_wrap img {
@@ -410,14 +411,14 @@ body {
   #main_wrap #new-items, #popular-items {
       display: flex;
       flex-wrap: wrap;
-      margin: 0 20px 30px 19px;
+      margin: 1rem;
       box-sizing: border-box;
   }
   
   #main_wrap #guide {
       display: flex;
       flex-wrap: wrap;
-      margin: 0 20px 30px;
+      margin: 0 1rem;
       box-sizing: border-box;
   }
     
@@ -427,7 +428,7 @@ body {
     width: 49%;
     margin-right: 1px;
     margin-bottom: 1px;
-    padding: 17px;
+    padding: 1rem;
     background-color: #ffffff;
     border-radius: 0px;
     box-sizing: border-box;
@@ -437,7 +438,7 @@ body {
   #main_wrap .guide-box {
     width: 100%;
     margin: 1px;
-    padding: 20px;
+    padding: 2rem;
     background-color: #ffffff;
     border-radius: 0px;
     box-sizing: border-box;
@@ -464,8 +465,8 @@ body {
   
   #sidebar .search-box {
       max-width: 100%;
-      margin-bottom: 30px;
-      padding: 45px 30px;
+      margin: 2rem 0;
+      padding: 2rem 1rem;
       background-color: #ffffff;
       box-sizing: border-box;
   } 
@@ -483,7 +484,7 @@ body {
       background-image: url("../images/top/search_icon.png");
       background-repeat: no-repeat;
       background-position: 95%;
-      background-size: 24px;
+      background-size: 12px;
       box-sizing: border-box;
   }
 
@@ -491,12 +492,12 @@ body {
   #sidebar .pagelink {
       width: 100%;
       margin-bottom: 20px;
-      padding: 2rem;
+      padding: 1rem;
       background-color:  #887f69;
       background-image: url("../images/top/next_icon.png");
       background-repeat: no-repeat;
       background-position: 95%;
-      background-size: 14px 28px;
+      background-size: 7px 14px;
       box-sizing: border-box;
   }
     
@@ -507,12 +508,12 @@ body {
   #sidebar .categories {
       width: 100%;
       margin-bottom: 0px;
-      padding: 2rem;
+      padding: 1rem;
       background-color:  #887f69;
       background-image: url("../images/top/down_icon.png");
       background-repeat: no-repeat;
       background-position: 95%;
-      background-size: 28px 14px;
+      background-size: 14px 7px;
       box-sizing: border-box;
   }
     
@@ -527,13 +528,12 @@ body {
 
   #sidebar .c-name li {
       list-style: none;
-      font-size: 24px;
       background-color: #ffffff;
       background-image: url("../images/top/next_icon_gray.png");
       background-repeat: no-repeat;
       background-position: 95%;
-      background-size: 14px 28px;
-      padding: 13px 0px 13px 20px;
+      background-size: 7px 14px;
+      padding: 1rem 0 1rem 2rem;
       margin-bottom: 3px;
   }
   
@@ -557,7 +557,7 @@ body {
   #sidebar .brown-box {
       width:100%;
       margin-bottom: 0px;
-      padding: 2rem;
+      padding: 1rem;
       background-color: #887f69;
       box-sizing: border-box;
   }    
@@ -565,8 +565,8 @@ body {
   #sidebar .white-box {
       width:100%;
       display: flex;
-      margin-bottom: 20px;
-      padding: 20px;
+      margin-bottom: 2rem;
+      padding: 1rem;
       background-color: #ffffff;
       box-sizing: border-box;
   } 
@@ -577,7 +577,8 @@ body {
   } 
     
   #sidebar .white-box .white-box-img {
-      width: 256px;
+      width: 47%;
+      min-width: 128px;
   } 
     
   #sidebar .white-box .white-box-img img {
@@ -590,8 +591,9 @@ body {
   }
   
   #sidebar .white-box-text-more {
-      width: 256px;
-      margin-left: 20px;
+      width: 49%;
+      min-width: 137px;
+      margin-left: 1rem;
   }
     
   #sidebar .white-box-more img {
@@ -643,7 +645,7 @@ body {
   
   footer .pagetop {
       width: 78px;
-      margin:25px auto 45px auto;
+      margin:0 auto;
   }
   
   footer .pagetop img {
@@ -668,12 +670,10 @@ body {
   footer .foot_navi li a {
       color: #000000;
       text-decoration: none;
-      font-size: 22px;
   }
   
   footer .copy {
       width:87%;
-      font-size: 20px;
       color: #b8b5ac;
       margin: 0 auto;
       text-align: center;
@@ -688,7 +688,7 @@ body {
 
 @media (min-width: 641px) {
   main h2 {
-    font-size: 1rem;
+    font-size: 2rem;
     line-height: 0;
     margin: 0;
     padding: 0;
@@ -725,31 +725,34 @@ body {
 @media (max-width: 640px) {
   
   main h2 {
+    font-size: 2rem;
     margin: 0;
     padding: 0;
   }
 
 
   main h3 {
+    font-size: 1.6rem;
     color:  #887f69;
-    font-size: 32px;
     font-weight: bold;
     text-align: left;
-    margin-bottom: 37px;
   }
 
   main h4 {
+    font-size: 1.5rem;
     color:  #887f69;
-    font-size: 24px;
     font-weight: bold;
     text-align: left;
-    margin-bottom: 11px;
   }
 
   main p {
     margin-bottom: 20px;
   }
-
+  
+  hr {
+    margin: 2rem 0;
+  }
+  
 }
 
 /*float解除*/
@@ -769,7 +772,7 @@ body {
 @media (min-width: 641px) {
   
   /* パンくずリスト */
-
+  
   .breadcrumb {
     margin-bottom: 10px;
     padding: 10px;
@@ -781,7 +784,7 @@ body {
     list-style: none;
   }
 
-  .breadcrumb li:after {/* /を表示*/
+  .breadcrumb li:after {/* 表示*/
     content: '/';
     padding: 0 3px;
     color: #887f69;
@@ -803,15 +806,14 @@ body {
   .breadcrumb li a:hover {
      color: #f9f8f6;
   }
-
-
-  #main_wrap .sp-section-title {
-      display:none;
-    }  
   
-  #main_wrap .sp-section-title-recent {
-      display:none;
-    }  
+  .sp-section-title {
+    display:none;
+  }  
+  
+  .sp-section-title-recent {
+    display:none;
+  }  
   
   #main_wrap #item-list {
     display: flex;
@@ -856,21 +858,20 @@ body {
   
   .breadcrumb {
     width: 93.75%;
-    margin: 0 3.13% 20px 3.12%;
-    padding: 1.6rem;
+    margin: 0 auto 1rem auto;
+    padding: 1rem;
     background-color: #e8e4da;
     box-sizing: border-box;
   }
 
   
   #main_wrap .breadcrumb img {
-    width:20px;
+    width:10px;
   }
 
   .breadcrumb li {
     display:inline;/*横に並ぶように*/
     list-style: none;
-    font-weight: bold;/*太字*/
   }
 
   .breadcrumb li:after {/* >を表示*/
@@ -896,12 +897,16 @@ body {
      color: #f9f8f6;
   }
 
+  #main_wrap .sp-section-title {
+    width: 93.75%;
+    margin: 0 auto;
+  }
 
   #main_wrap #item-list {
     display: flex;
     flex-wrap: wrap;
     width: 93.75%;
-    margin: 10px 3.12% 52px 3.13%;
+    margin: 1rem auto;
     box-sizing: border-box;
   }
 
@@ -909,22 +914,19 @@ body {
     display: flex;
     flex-wrap: wrap;
     width: 93.75%;
-    margin: 20px 3.12% 30px 3.12%;
+    margin: 2rem auto;
   }
 
   
   #main_wrap .next-back-btns {
     width: 93.75%;
-    margin: 0 3.13% 20px 3.12%;
+    margin: 2rem auto;
     display: flex;
     justify-content:space-between;
   }
   
   #main_wrap .next-back-btns a {
     width: 40.5%;
-    height: 100%;
-    padding: 1.0rem;
-    font-size: 2.8rem;
     font-weight: 700;
     border-radius: 0;
     background-color: #887f69;
@@ -939,11 +941,11 @@ body {
 
   
   #main_wrap .next-back-btns {
-    margin-bottom: 39px;
+    margin-bottom: 2rem;
   } 
   
   #main_wrap #recent-item {
-    margin-bottom: 60px;
+    margin-bottom: 3rem;
   }  
 
 }
@@ -1200,9 +1202,8 @@ body {
   }
   
   #products-area h2 {
-    font-size: 28px;
     font-weight: 700;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     text-align: justify;
     text-justify:auto;
   }
@@ -1210,7 +1211,7 @@ body {
   #products-area #item-title  {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 30px;
+    margin-bottom: 1rem;
   }
   
   
@@ -1219,14 +1220,13 @@ body {
   }
   
   #products-area #item-title .item-number {
-    width: 102px;
-    font-size: 20px;
     color: #a6a6a6;
   }
   
   #products-area hr  {
     height: 2px;
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 1rem;
   }
   
   
@@ -1234,18 +1234,21 @@ body {
   /* スライドショーエリア */
   
   #slide {
-/*    display: flex;
-    flex-wrap: wrap; */
-    margin-top: 20px;
+    margin-top: 2rem;
+  }
+  
+  #slide ul {
+    margin-bottom: 0;
   }
   
   #display_img {
     width: 100%;
   }
   
+  
   #list_img {
     width: 100%;
-    margin: 18px 0 0 0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
@@ -1275,6 +1278,57 @@ body {
   /* スライドショーエリアここまで */
 
   
+  
+  /*スマホのCOLOR　SIZE表*/
+  #c-s table {
+    margin: 20px 0;
+  }
+
+  #c-s th {
+    border: 1px solid;
+    border-color: #e8e4da;
+    background-color: #f9f9f5;
+    width: 28%;
+    font-weight: inherit;
+    color: #887f69;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  #c-s td {
+    border: 1px solid;
+    border-color: #e8e4da;
+    width: 36.3%;
+    color: #e8e4da;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  /*スマホのCOLOR　SIZE表の中のボックス*/
+  #color-size-table input[type="checkbox"] {
+    display: none;
+  }
+
+  
+  #color-size-table .color {
+    width: 16px;
+    height: 16px;
+    margin: 0 auto;
+    border-style: solid;
+    border-color: #e8e4da;
+    border-width:1px;
+    box-sizing: border-box;
+  }
+  
+  #color-size-table h3 img {
+    width: 100px;
+  }
+  
+  #color-size-table hr {
+    margin-top: 0;
+  }
+  
+  
   #price-quantity-cart {
     display: flex;
     flex-wrap: wrap;
@@ -1297,7 +1351,6 @@ body {
   
   #price-quantity-cart .price{
     display: flex;
-    margin-top: 20px;
   }
   
   #price-quantity-cart .price-title {
@@ -1305,81 +1358,32 @@ body {
   }
   
   #price-quantity-cart .kakaku {
-    width: 41.33%;
-    margin: 0 0 0 24.33%;
+    width: 42.2%;
+    margin: 1rem 0 2rem 24.33%;
     box-sizing: border-box;
   }
   
   #price-quantity-cart .yen {
     color: #e80f66;
-    font-size: 2rem;
     font-style: italic;
   }
   
   #price-quantity-cart .kingaku {
     color: #e80f66;
-    font-size: 4rem;
+    font-size: 2.4rem;
     font-style: italic;
   }
   
   #price-quantity-cart .tax {
-    font-size: 2rem;
     font-style: italic;
   }
   
   #price-quantity-cart .price h3 {
-    margin: 15px 0 37px 0;
+    margin: 2rem 0;
   }
   
   #price-quantity-cart .quantity h3 {
-    margin-top: 50px;
-  }
-  
-  /*スマホのCOLOR　SIZE表*/
-  #c-s table {
-    margin: 20px 0;
-  }
-
-  #c-s th {
-    border: 1px solid;
-    border-color: #e8e4da;
-    background-color: #f9f9f5;
-    width: 28%;
-    font-size: 2rem;
-    padding: 10px 10px;
-    color: #887f69;
-    text-align: center;
-    box-sizing: border-box;
-  }
-
-  #c-s td {
-    border: 1px solid;
-    border-color: #e8e4da;
-    width: 36.3%;
-    padding: 10px 10px;
-    color: #e8e4da;
-    text-align: center;
-    box-sizing: border-box;
-  }
-
-  /*スマホのCOLOR　SIZE表の中のボックス*/
-  #color-size-table input[type="checkbox"] {
-    display: none;
-  }
-
-  
-  #color-size-table .color {
-    width: 32px;
-    height: 32px;
-    margin: 0 auto;
-    border-style: solid;
-    border-color: #e8e4da;
-    border-width:1px;
-    box-sizing: border-box;
-  }
-  
-  #color-size-table h3 img {
-    width: 100px;
+    margin: 2rem 0 1rem 0;
   }
   
   #price-quantity-cart .quantity {
@@ -1392,12 +1396,17 @@ body {
   
   
   #price-quantity-cart .quantity-box{
-    width: 278px;
-    height: 72px;
-    margin-top: 25px;
+    width: 46.3%;
+    height: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     margin-left: 17%;
     border: 1px solid;
     border-color: #e8e4da;
+  }
+  
+  #price-quantity-cart hr{
+    margin: 0;
   }
   
   #explain h3 {
@@ -1422,7 +1431,6 @@ body {
     background-color: #f9f9f5;
     width: 162px;
     color: #887f69;
-    font-weight: bold;
     text-align: center;
   }
 
@@ -1431,7 +1439,6 @@ body {
     border-color: #e8e4da;
     width: 418px;
     color: #887f69;
-    font-weight: bold;
     padding-left: 13px;
   }  
   
